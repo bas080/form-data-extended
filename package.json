@@ -1,0 +1,30 @@
+{
+  "name": "form-data-extended",
+  "version": "0.0.0",
+  "description": "Extended FormData",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "tape lib/*spec.js"
+  },
+  "keywords": [
+    "formdata",
+    "form",
+    "data",
+    "extended"
+  ],
+  "author": "Bassim Huis",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.cond": "^4.5.2",
+    "lodash.isnil": "^4.0.0",
+    "lodash.isobject": "^3.0.2",
+    "lodash.topairs": "^4.3.0"
+  },
+  "devDependencies": {
+    "spyn": "0.0.1",
+    "tape": "^4.9.0"
+  }
+}
