@@ -1,4 +1,5 @@
 # Form Data Extended
+[![Build Status](https://travis-ci.org/bas080/form-data-extended.svg?branch=master)](https://travis-ci.org/bas080/form-data-extended)
 
 Makes FormData support nested objects and arrays.
 
