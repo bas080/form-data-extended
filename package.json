@@ -1,13 +1,19 @@
 {
   "name": "form-data-extended",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extended FormData",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bas080/form-data-extended.git"
+  },
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "tape lib/*spec.js"
+    "pretest": "npm prune",
+    "test": "tape ./lib/*.spec.js",
+    "prepack": "npm test"
   },
   "keywords": [
     "formdata",
@@ -24,7 +30,7 @@
     "lodash.topairs": "^4.3.0"
   },
   "devDependencies": {
-    "spyn": "0.0.1",
+    "spyn": "^0.1.1",
     "tape": "^4.9.0"
   }
 }
