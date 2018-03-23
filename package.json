@@ -1,6 +1,6 @@
 {
   "name": "form-data-extended",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Extended FormData",
   "main": "index.js",
   "repository": {
@@ -19,6 +19,9 @@
     "formdata",
     "form",
     "data",
+    "nested",
+    "phoenix",
+    "php",
     "extended"
   ],
   "author": "Bassim Huis",
