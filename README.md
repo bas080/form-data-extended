@@ -25,6 +25,7 @@ const userFormData = formData({
     country: "USA",
     city: "New York",
   },
+  picture: file, // file instanceof File === true
   nicknames: [
     "Johny",
     "Joe",
@@ -35,13 +36,15 @@ const userFormData = formData({
 userFormData instanceof FormData // => true
 ```
 
-The FormData will have the following key value pairs
+The FormData will have the following key value pairs. Notice that it supports
+file instances too.
 
 ```
-name = Johm Doe
+name = John Doe
 location[country] = USA
 location[city] = "New York"
-images[] = Johny
-images[] = Joe
-images[] = Jo
+picture = <file>
+nicknames[] = Johny
+nicknames[] = Joe
+nicknames[] = Jo
 ```
