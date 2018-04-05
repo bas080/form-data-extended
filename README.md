@@ -9,7 +9,7 @@ configuration to support different standards could be part of future features.
 
 # Installation
 
-`npm install spyn --save-dev`
+`npm install form-data-extended --save`
 
 # Usage
 
