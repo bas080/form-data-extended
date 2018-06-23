@@ -1,5 +1,5 @@
 # Form Data Extended
-[![Build Status](https://travis-ci.org/bas080/form-data-extended.svg?branch=master)](https://travis-ci.org/bas080/form-data-extended)
+[![Build Status](https://travis-ci.org/bas080/form-data-extended.svg?branch=master)](https://travis-ci.org/bas080/form-data-extended) [![Greenkeeper badge](https://badges.greenkeeper.io/bas080/form-data-extended.svg)](https://greenkeeper.io/)
 
 Makes FormData support nested objects and arrays.
 

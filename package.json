@@ -33,7 +33,7 @@
     "lodash.topairs": "^4.3.0"
   },
   "devDependencies": {
-    "spyn": "^0.1.1",
+    "spyn": "^0.2.0",
     "tape": "^4.9.0"
   }
 }
