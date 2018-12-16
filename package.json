@@ -1,6 +1,6 @@
 {
   "name": "form-data-extended",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Extended FormData",
   "main": "index.js",
   "repository": {
