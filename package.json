@@ -16,6 +16,7 @@
     "prepack": "npm test"
   },
   "keywords": [
+    "multipart",
     "formdata",
     "form",
     "data",
