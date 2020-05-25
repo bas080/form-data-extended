@@ -35,6 +35,6 @@
   },
   "devDependencies": {
     "spyn": "^0.2.0",
-    "tape": "^4.13.2"
+    "tape": "^5.0.1"
   }
 }
