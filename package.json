@@ -1,6 +1,6 @@
 {
   "name": "form-data-extended",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Extended FormData",
   "main": "index.js",
   "repository": {
@@ -34,7 +34,7 @@
     "lodash.topairs": "^4.3.0"
   },
   "devDependencies": {
-    "spyn": "^0.2.0",
-    "tape": "^4.13.2"
+    "spyn": "^0.2.2",
+    "tape": "^5.3.1"
   }
 }
