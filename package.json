@@ -11,9 +11,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "pretest": "npm prune",
-    "test": "npx tape ./lib/*.spec.js",
-    "prepack": "npm test"
+    "test": "npx tape ./lib/*.spec.js"
   },
   "keywords": [
     "multipart",
@@ -34,6 +32,7 @@
     "lodash.topairs": "^4.3.0"
   },
   "devDependencies": {
-    "spyn": "^0.2.4"
+    "spyn": "^0.2.4",
+    "tape": "^5.4.1"
   }
 }
