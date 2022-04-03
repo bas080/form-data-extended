@@ -11,7 +11,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "npx tape ./lib/*.spec.js"
+    "test": "tape ./lib/*.spec.js"
   },
   "keywords": [
     "multipart",
